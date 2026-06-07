@@ -1,4 +1,4 @@
-# Portfolio Strategy Validation Dashboard
+# Portfolio Construction Lab
 
 ![Portfolio Strategy Validation Dashboard](screenshots/hero_dashboard.png)
 
@@ -154,7 +154,7 @@ Shows how £1 invested in each portfolio would have grown over time.
 - Relative portfolio performance
 - Comparison of return paths across strategies
 
-![Growth of £1](screenshots/growth_of_1_pound.png)
+![Growth of £1](screenshots/growth_of_£1.png)
 
 ---
 
@@ -221,7 +221,7 @@ Converts portfolio metrics into investment conclusions.
 ## Repository Structure
 
 ```text
-portfolio_strategy_validation_dashboard/
+portfolio-construction-lab/
 │
 ├── README.md
 ├── requirements.txt
@@ -235,14 +235,14 @@ portfolio_strategy_validation_dashboard/
 │
 ├── screenshots/
 │   ├── hero_dashboard.png
-│   ├── growth_of_1_pound.png
+│   ├── growth_of_£1.png
 │   ├── rolling_analytics.png
 │   ├── risk_return_map.png
 │   ├── validation_tests.png
 │   └── investment_interpretation.png
 │
-└── scr/
-    └── portfolio_strategy_validation_dashboard.py
+└── src/
+    └── portfolio-construction-lab.py
 ```
 
 ---
@@ -304,7 +304,7 @@ pip install -r requirements.txt
 ### 3. Run the Streamlit App
 
 ```bash
-streamlit run scr/portfolio_strategy_validation_dashboard.py
+streamlit run scr/portfolio-construction-lab.py
 ```
 
 ---
