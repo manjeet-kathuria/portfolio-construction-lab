@@ -349,7 +349,7 @@ st.info(
 st.subheader("Performance Summary")
 st.dataframe(rename_for_display(format_metrics(metrics)), use_container_width=True)
 
-st.subheader("Growth of £1")
+st.subheader("Growth of $1")
 st.line_chart(growth)
 
 st.subheader("Drawdown Comparison")
