@@ -144,7 +144,7 @@ Compares all portfolio strategies using investment performance metrics.
 
 ---
 
-### Growth of £1
+### Growth of $1
 
 Shows how £1 invested in each portfolio would have grown over time.
 
@@ -154,7 +154,7 @@ Shows how £1 invested in each portfolio would have grown over time.
 - Relative portfolio performance
 - Comparison of return paths across strategies
 
-![Growth of £1](screenshots/growth_of_£1.png)
+![Growth of $1](screenshots/growth_of_$1.png)
 
 ---
 
@@ -235,7 +235,7 @@ portfolio-construction-lab/
 │
 ├── screenshots/
 │   ├── hero_dashboard.png
-│   ├── growth_of_£1.png
+│   ├── growth_of_$1.png
 │   ├── rolling_analytics.png
 │   ├── risk_return_map.png
 │   ├── validation_tests.png
